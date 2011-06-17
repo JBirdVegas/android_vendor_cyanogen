@@ -11,5 +11,3 @@ $L "((_ \\(/'((_( ((\\( ((_)((_( (('((\\( ((\`1( ((_)((_( ";
 $L "     ))                 _))";
 $L " ";
 
-#Hacky symbolic link as workaround for hw/accelerator
-ln -s /dev/lis331dlh /dev/kxtf9

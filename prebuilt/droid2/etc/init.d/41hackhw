@@ -1,0 +1,3 @@
+
+#Hacky symbolic link as workaround for hw/accelerator
+ln -s /dev/lis331dlh /dev/kxtf9
