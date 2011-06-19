@@ -34,6 +34,10 @@ PRODUCT_BUILD_PROP_OVERRIDES := BUILD_ID=VZW BUILD_DISPLAY_ID=GRH78C PRODUCT_NAM
 PRODUCT_COPY_FILES +=  \
     vendor/cyanogen/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
 
+#Hacky hw/accelerator
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/dream_sapphire/etc/init.d/41hackhw:system/etc/init.d/41hackhw
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/droid2
 
 # Add the Torch app
