@@ -37,4 +37,5 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/droid2
 
 # Add the Torch app
-PRODUCT_PACKAGES += Torch
+# Torch doesnt work on droid2... yet
+# PRODUCT_PACKAGES += Torch
